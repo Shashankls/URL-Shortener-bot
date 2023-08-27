@@ -21,11 +21,10 @@ except Exception:
     print("Add var values properly. Read readme.md once")
 
 
-@bot.on_message(filters.command('start'))
-async def start(bot, message):
-    start_msg = f"""
-Hi {message.chat.first_name}!
-
+@bot.on_message(filters.command('start')) 
+ async def start(bot, message): 
+     start_msg = f""" 
+ Hi {message.chat.first_name}!
 I'm {WEBSITE} bot. Just send me link and get short link!
 
 Send me a link to short a link with random alias.
