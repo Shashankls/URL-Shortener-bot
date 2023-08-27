@@ -11,23 +11,23 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token",
-            "value": ""
+            "value": "6448737888:AAFN729xVkjaNbK596ePKeWpXHMOlwve1LM"
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": ""
+            "value": "16621664"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": ""
+            "value": "8b283f2943729318995738b5963f0bcc"
         },
         "WEBSITE": {
             "description": "Any shortener website which you want to use. Ex. droplink.co (Note: Don't type https, /, : or anything like that. Only type the website name Ex: droplink.co)",
-            "value": ""
+            "value": "sharedisk.in"
         },
         "API_KEY": {
             "description": "Get API key from https://your_website/member/tools/api",
-            "value": ""
+            "value": "e26eadf7050fc1af0ce5d082d40d78c6c013984c"
         }
     },
     "addons": [],
