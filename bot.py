@@ -20,10 +20,8 @@ try:
 except Exception:
     print("Add var values properly. Read readme.md once")
 
-
-
 @bot.on_message(filters.regex(r'https?://[^\s]+') & filters.private) 
- async def link_handler(bot, message): 
+async def link_handler(bot, message): 
      if "|" in message.text: 
          link_parts = message.text.split("|") 
          link = link_parts[0] 
